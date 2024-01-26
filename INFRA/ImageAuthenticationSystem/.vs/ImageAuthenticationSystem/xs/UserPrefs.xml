@@ -1,0 +1,25 @@
+﻿<Properties StartupConfiguration="{68B340B7-F3CC-48AB-BF51-CF62288D1A7B}|https">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ImageAuthenticationSystem/Controllers/ImageAuthenticationController.cs">
+    <Files>
+      <File FileName="ImageAuthenticationSystem/Program.cs" />
+      <File FileName="ImageAuthenticationSystem/Controllers/ImageAuthenticationController.cs" Line="66" Column="89" />
+      <File FileName="ImageAuthenticationSystem/BAL/ImageBusinessLayer.cs" />
+      <File FileName="ImageAuthenticationSystem/DAL/DBConnection.cs" />
+      <File FileName="ImageAuthenticationSystem/Model/ImageAuthenticationModel.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ImageAuthenticationSystem" expanded="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.ImageAuthenticationSystem PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+</Properties>
