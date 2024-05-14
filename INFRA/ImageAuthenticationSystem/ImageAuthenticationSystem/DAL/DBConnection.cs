@@ -6,33 +6,43 @@ namespace ImageAuthenticationSystem.DAL
 {
     public class DBConnection
     {
-        string connectionString = "Server=localhost;Port=3306;Database=IAS;User Id=root;Password=root1234;";
+        string connectionString;
+
+        public DBConnection()
+        {
+            try
+            {
+                connectionString = "Server=localhost;Port=3306;Database=IAS;User Id=root;Password=root1234;";
+            }
+            catch (Exception ex) { }
+        }
 
         public MySqlConnection StartConnection()
         {
-            MySqlConnection connection;
-            using (connection = new MySqlConnection(connectionString))
+            MySqlConnection connection = new MySqlConnection(connectionString);
+            try
             {
-                try
-                {
-                    connection.Open();
-                    Console.WriteLine("Connection successful.");
-                }
-                catch (Exception ex)
-                {
-                    Console.WriteLine($"Error: {ex.Message}");
-                }
+                connection.Open();
+                Console.WriteLine("Connection successful.");
             }
-            return connection;
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error: {ex.Message}");
+            }
 
+            return connection;
         }
 
         public void EndConnection(MySqlConnection connection)
         {
-            if (connection.State == System.Data.ConnectionState.Open)
+            try
             {
-                connection.Close();
+                if (connection.State == System.Data.ConnectionState.Open)
+                {
+                    connection.Close();
+                }
             }
+            catch (Exception ex) { }
         }
     }
 }
