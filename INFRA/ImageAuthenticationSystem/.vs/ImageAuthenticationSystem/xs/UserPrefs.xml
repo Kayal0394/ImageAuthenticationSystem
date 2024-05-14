@@ -1,25 +1,30 @@
 ﻿<Properties StartupConfiguration="{68B340B7-F3CC-48AB-BF51-CF62288D1A7B}|https">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.Workbench ActiveDocument="ImageAuthenticationSystem/Controllers/ImageAuthenticationController.cs">
     <Files>
-      <File FileName="ImageAuthenticationSystem/Program.cs" />
-      <File FileName="ImageAuthenticationSystem/Controllers/ImageAuthenticationController.cs" Line="66" Column="89" />
-      <File FileName="ImageAuthenticationSystem/BAL/ImageBusinessLayer.cs" />
-      <File FileName="ImageAuthenticationSystem/DAL/DBConnection.cs" />
-      <File FileName="ImageAuthenticationSystem/Model/ImageAuthenticationModel.cs" />
+      <File FileName="ImageAuthenticationSystem/BAL/ImageBusinessLayer.cs" Line="15" Column="59" />
+      <File FileName="ImageAuthenticationSystem/Controllers/ImageAuthenticationController.cs" Line="101" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="ImageAuthenticationSystem" expanded="True" />
+          <Node name="ImageAuthenticationSystem" expanded="True">
+            <Node name="ImageAuthenticationSystem" expanded="True">
+              <Node name="BAL" expanded="True" />
+              <Node name="Controllers" expanded="True">
+                <Node name="ImageAuthenticationController.cs" selected="True" />
+              </Node>
+              <Node name="Properties" expanded="True" />
+            </Node>
+          </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.ItemProperties.ImageAuthenticationSystem PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.ImageAuthenticationSystem PreferredExecutionTarget="/Applications/Google Chrome.app" />
 </Properties>
