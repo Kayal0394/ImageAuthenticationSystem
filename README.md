@@ -1,1 +1,1 @@
-# ImageAuthenticationSystem
+# ImageBasedAuthenticationSystem
